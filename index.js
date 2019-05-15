@@ -238,7 +238,7 @@ function drawTitleToolTip(year) {
 function drawToolTip(year) {
   d3.selectAll(".tooltip-svg").remove();
 
-  svg = d3.select(".tooltip")
+  svg = d3.selectAll(".tooltip")
     .append("svg")
     .attr("class", "tooltip-svg")
     .attr("width", widthToolTip + marginToolTip.left + marginToolTip.right)
