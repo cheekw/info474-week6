@@ -272,7 +272,7 @@ function drawPointsToolTip(filteredData, scaleValues, zFeatureToolTip) {
   // make size scaling function for population
   let zScale = d3.scaleLinear()
     .domain([zLimits[0], zLimits[1]])
-    .range([3, 20]);
+    .range([2, 12]);
 
   // mapping functions
   let x = scaleValues.xScale;
