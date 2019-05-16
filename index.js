@@ -121,7 +121,7 @@ function drawLabels(xFeature, yFeature) {
   svgContainer.append("text")
     .attr("transform", "translate(" + ((width + margin.left) / 2) + " ," + (height + margin.top) + ")")
     .style("text-anchor", "middle")
-    .text("Time (Years)");
+    .text("Time (year)");
 
   // y axis label
   svgContainer.append("text")
